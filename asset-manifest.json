@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/robofriends/static/css/main.6a51e754.chunk.css",
-    "main.js": "/robofriends/static/js/main.4f8017ec.chunk.js",
-    "main.js.map": "/robofriends/static/js/main.4f8017ec.chunk.js.map",
+    "main.css": "/robofriends/static/css/main.04bbf621.chunk.css",
+    "main.js": "/robofriends/static/js/main.2aa5615d.chunk.js",
+    "main.js.map": "/robofriends/static/js/main.2aa5615d.chunk.js.map",
     "runtime-main.js": "/robofriends/static/js/runtime-main.d292be20.js",
     "runtime-main.js.map": "/robofriends/static/js/runtime-main.d292be20.js.map",
     "static/css/2.6d7c7915.chunk.css": "/robofriends/static/css/2.6d7c7915.chunk.css",
-    "static/js/2.5186c7d3.chunk.js": "/robofriends/static/js/2.5186c7d3.chunk.js",
-    "static/js/2.5186c7d3.chunk.js.map": "/robofriends/static/js/2.5186c7d3.chunk.js.map",
+    "static/js/2.6512d806.chunk.js": "/robofriends/static/js/2.6512d806.chunk.js",
+    "static/js/2.6512d806.chunk.js.map": "/robofriends/static/js/2.6512d806.chunk.js.map",
     "index.html": "/robofriends/index.html",
     "service-worker.js": "/robofriends/service-worker.js",
     "service-worker.js.map": "/robofriends/service-worker.js.map",
     "static/css/2.6d7c7915.chunk.css.map": "/robofriends/static/css/2.6d7c7915.chunk.css.map",
-    "static/css/main.6a51e754.chunk.css.map": "/robofriends/static/css/main.6a51e754.chunk.css.map",
-    "static/js/2.5186c7d3.chunk.js.LICENSE.txt": "/robofriends/static/js/2.5186c7d3.chunk.js.LICENSE.txt",
+    "static/css/main.04bbf621.chunk.css.map": "/robofriends/static/css/main.04bbf621.chunk.css.map",
+    "static/js/2.6512d806.chunk.js.LICENSE.txt": "/robofriends/static/js/2.6512d806.chunk.js.LICENSE.txt",
     "static/media/App.css": "/robofriends/static/media/SEGA.47b4bfa9.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.d292be20.js",
     "static/css/2.6d7c7915.chunk.css",
-    "static/js/2.5186c7d3.chunk.js",
-    "static/css/main.6a51e754.chunk.css",
-    "static/js/main.4f8017ec.chunk.js"
+    "static/js/2.6512d806.chunk.js",
+    "static/css/main.04bbf621.chunk.css",
+    "static/js/main.2aa5615d.chunk.js"
   ]
 }
