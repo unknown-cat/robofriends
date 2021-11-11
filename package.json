@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
-    "yarn-upgrade-all": "^0.5.4"
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "enzyme": "^3.11.0"
   }
 }
