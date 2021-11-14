@@ -2,9 +2,11 @@
 
 exports[`expects to render CounterButton component 1`] = `
 <button
+  color="red"
+  id="counter"
   onClick={[Function]}
 >
   Count: 
-  1
+  0
 </button>
 `;
