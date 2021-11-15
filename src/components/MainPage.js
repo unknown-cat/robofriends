@@ -19,7 +19,7 @@ class MainPage extends Component {
 		this.props.onRequestRobots();
 	}
 
-	filteredRobots = robots => {
+	filterRobots = robots => {
 		return robots.filter(robot => {
 			return robot.name.toLowerCase().includes(this.props.searchField.toLowerCase());
 		})
@@ -35,7 +35,7 @@ class MainPage extends Component {
 				<Scroll>
 					{ isPending ? <h1>Loading</h1> :
 						<ErrorBoundry>
-							<CardList robots={this.filteredRobots(robots)} />
+							<CardList robots={this.filterRobots(robots)} />
 						</ErrorBoundry>
 					}
 				</Scroll>
