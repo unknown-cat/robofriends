@@ -19,14 +19,14 @@ class MainPage extends Component {
 		this.props.onRequestRobots();
 	}
 
-	filterRobots = robots => {
-		return robots.filter(robot => {
+	filterRobots = () => {
+		return this.props.robots.filter(robot => {
 			return robot.name.toLowerCase().includes(this.props.searchField.toLowerCase());
 		})
 	}
 
 	render() {
-		const { robots, onSearchChange, isPending } = this.props;
+		const { onSearchChange, isPending } = this.props;
 
 		return (
 			<div className='tc'>
@@ -35,7 +35,7 @@ class MainPage extends Component {
 				<Scroll>
 					{ isPending ? <h1>Loading</h1> :
 						<ErrorBoundry>
-							<CardList robots={this.filterRobots(robots)} />
+							<CardList robots={this.filterRobots()} />
 						</ErrorBoundry>
 					}
 				</Scroll>
