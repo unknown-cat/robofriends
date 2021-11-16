@@ -8,7 +8,7 @@ exports[`expect to show the loading page if pending: <h1>Loading</h1> 1`] = `
   <SearchBox />
   <Scroll>
     <h1>
-      Loading
+      Loading...
     </h1>
   </Scroll>
 </div>
