@@ -29,10 +29,31 @@ it('filters robots correctly', () => {
 		searchField: 'john',
 		pending: false
 	}
-	const wrapper2 = shallow(<MainPage {...mockProps2}/>)
+	const wrapper2 = shallow(<MainPage { ...mockProps2 }/>)
 	expect(wrapper2.instance().filterRobots()).toEqual([{
 		id: 3,
 		name: 'john',
 		email: 'john@gmail.com'
 	}])
+})
+
+it('expect to not found any robots after search', () => {
+	const mockProps3 = {
+		onRequestRobots: jest.fn(),
+		robots: [{
+			id: 3,
+			name: 'john',
+			email: 'john@gmail.com'
+		}],
+		searchField: 'a',
+		pending: false
+	}
+	const filteredRobots = []
+	const wrapper3 = shallow(<MainPage { ...mockProps3 }/>)
+	expect(wrapper3.instance().filterRobots()).toEqual(filteredRobots)
+})
+
+it("expect to show the loading page if pending", () => {
+	wrapper.setProps({ isPending: true })
+	expect(wrapper).toMatchSnapshot("<h1>Loading</h1>")
 })
